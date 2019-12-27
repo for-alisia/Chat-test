@@ -1,0 +1,10 @@
+.main
+    .main__header
+        h2.main__title Чат
+        p.main__qty 2 участника
+    .main__msg
+        include ../components/_message.pug
+    .main__footer
+        form.main__form(action="")
+            input.main__input(type="text", name="message", placeholder="Введите сообщение...")
+            button.main__button.btn Отправить

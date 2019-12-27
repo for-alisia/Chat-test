@@ -1,0 +1,50 @@
+.photoLoad {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $color_bg_medium;
+    padding: 3.5rem;
+    min-width: 30rem;
+
+    &__close {
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        cursor: pointer;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 3.5rem;
+        letter-spacing: 0.07rem;
+    }
+
+    &__card {
+        display: flex;
+        align-items: center;
+    }
+
+    &__photo {
+        width: 9.5rem;
+        height: 9.5rem;
+        border-radius: 50%;
+        background-color: $color_bg_light;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1.5rem;
+        cursor: pointer;
+    }
+
+    &__name {
+        font-size: 1.8rem;
+        font-weight: 700;
+        letter-spacing: 0.07rem;
+    }
+
+    &__status {
+        color: $color_blue;
+    }
+}

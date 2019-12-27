@@ -1,0 +1,13 @@
+.auth
+    .auth__close
+        img(src="img/icons/close_icon.png")
+    .auth__container
+        .auth__logo
+            img(src="img/logo_blue.png")
+        .auth__header
+            p.auth__title Авторизация
+            p.auth__clue Введите, пожалуйста, свое ФИО и ник для дальнейшей авторизации
+        form.auth__form
+            input.auth__input(type="text", name="name", placeholder="Введите свое имя")
+            input.auth__input(type="text", name="nickname", placeholder="Введите свой ник")
+            button.auth__btn.btn Войти

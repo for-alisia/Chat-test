@@ -1,0 +1,13 @@
+@import '../../node_modules/normalize.scss/normalize.scss';
+@import './abstracts/functions';
+@import './abstracts/mixins';
+@import './abstracts/variables';
+@import './base/base';
+@import './base/animations';
+@import './base/typography';
+@import './pages/home';
+@import './layouts/aside';
+@import './layouts/main';
+@import './components/auth';
+@import './components/photo_load';
+@import './components/photo_editor';
