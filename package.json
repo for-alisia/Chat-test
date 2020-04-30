@@ -4,7 +4,7 @@
     "description": "Starting template, using Gulp(scss for css, pug for html, webpack for js-modules)",
     "main": "gulpfile.js",
     "dependencies": {
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "normalize.scss": "^0.1.0"
     },
     "devDependencies": {
